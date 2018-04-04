@@ -2,8 +2,8 @@
 layout: post
 title: "Differences between HTMLElement.innerText and HTMLElement.textElement "
 author: "Tylor Shin"
-categories: tech, frontend, javascript
-tags: [tech, css, scss]
+categories: tech, frontend, javascript, TIL
+tags: [tech, css, scss, TIL]
 image: copyToClipboard.png
 ---
 
