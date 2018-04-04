@@ -3,4 +3,6 @@ layout: page
 title: Contact
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+Contact me with via upper SNS images.
+
+ETH Address: 0xEcaB99e5382B18D316D9FF892D56b7CdaB4f6cc6
