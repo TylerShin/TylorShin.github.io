@@ -2,20 +2,20 @@
 layout: post
 title: "Differences between HTMLElement.innerText and HTMLElement.textElement "
 author: "Tylor Shin"
-categories: tech, frontend, javascript, TIL
+categories: frontend
 tags: [tech, css, scss, TIL]
 image: copyToClipboard.png
 ---
 
-When I make the copy to clipboard feature, I found something funny.
+When I make the copy to clipboard feature, I found something funny.  
 
-When I tried to copy with [node.innerText] content, it doesn't copy the meaningful whitespaces.
+When I tried to copy with [node.innerText] content, it doesn't copy the meaningful whitespace.  
 
-So, I googled it, and found the below content.
+So, I googled it, and found the below content.  
 
 ```
-Differences from innerText
-Internet Explorer introduced node.innerText. The intention is similar but with the following differences:
+Differences from innerText  
+Internet Explorer introduced node.innerText. The intention is similar but with the following differences:  
 
 While textContent gets the content of all elements, including script and style elements, innerText does not.
 innerText is aware of style and will not return the text of hidden elements, whereas textContent will.
