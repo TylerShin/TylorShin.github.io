@@ -40,7 +40,8 @@ Two, Use Normalizr for data clean up and organize.
 
 ## Implementation
 
-**Plan**  
+### PLAN
+
 Since scinapse is already large enough and complicated, I thought it was impossible to change all the code at once.  
 So I tried to apply new logics to new component and features and let existing code works fine.
 
