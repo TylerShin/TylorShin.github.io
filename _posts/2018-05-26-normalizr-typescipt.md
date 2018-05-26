@@ -4,7 +4,7 @@ title: "How to apply Normalizr with TypeScript in Redux structure"
 author: "Tylor Shin"
 categories: frontend
 tags: [React, Redux, Typescript, ImmutableJS, ReturnType]
-image: typeWithActionAndReducer.png
+image: typeWithAction.png
 ---
 
 ## Background
