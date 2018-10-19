@@ -1,6 +1,7 @@
 # Site Build Settings
 repository: TylorShin/TylorShin.github.io
-
+site:
+  url: https://tylorsh.in
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
@@ -12,18 +13,18 @@ repository: TylorShin/TylorShin.github.io
 #   sort_reverse: true
 
 # jekyll-paginate configuration
-paginate:            5
+paginate: 5
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+markdown: kramdown
+highlighter: rouge
+permalink: none
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'EmoLogic Factory'
-description:	       "Tylor's Blog"
-author:              'Tylor Shin'
+title: "EmoLogic Factory"
+description: "Tylor's Blog"
+author: "Tylor Shin"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

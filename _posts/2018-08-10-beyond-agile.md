@@ -29,7 +29,7 @@ image: wrongWorkflow.png
 
 이러한 문제를 애자일이나 전통적 방법론에서나 해결하는 방법은 비슷하다. PM이나 기획자가 중간에서 계속 바른 방향으로 유도하고, 오해와 왜곡을 막기 위해 주기적으로 다양한 직군이 모여 스프린트 미팅이나 회고를 한다. 그리고 위 과정이 이상적으로 이루어지지 않는 이상 슬프게도 아래와 같은 결과가 나타난다.
 
-![wrong workflow result example]({{ site.github.url }}/assets/img/wrongWorkflow.png)
+![wrong workflow result example]({{ site.url }}/assets/img/wrongWorkflow.png)
 
 커뮤니케이션만으로는 이 문제를 해결할 수 없다고 생각한다. 위와 같은 커뮤니케이션에는 각 role이 가지는 입장이 들어갈 수밖에 없고, 결국 각자의 문제를 해결하는 데로 초점이 맞춰지기 때문이다. PM이나 기획자가 계속해서 상기시키더라도 이상적인 커뮤니케이션이 잘 이루어지기 어려우며, 그들에게 다른 팀원들을 설득시키고 바른 방향으로 유도하는 슈퍼맨이 되기를 강요한다. 
 

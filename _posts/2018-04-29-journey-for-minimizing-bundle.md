@@ -53,7 +53,7 @@ As the result, the bundle size was 1.8MB without Gzip.
 To further reduce, I had to know where it took up a lot of capacity.  
 Fortunately, Webpack team provides the nice plugin called [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer).  
 
-![before minimize bundle]({{ site.github.url }}/assets/img/before-minimize.png "before minimize bundle")  
+![before minimize bundle]({{ site.url }}/assets/img/before-minimize.png "before minimize bundle")  
 
 As you can see, Lodash, MomentJS, Material-UI, JQuery take so many spaces.
 
@@ -74,7 +74,7 @@ After applying this, Lodash and some other libraries became small.
 
 **RESULT**  
 
-![after apply tree shaking]({{ site.github.url }}/assets/img/afterLodash.png "after apply tree shaking")  
+![after apply tree shaking]({{ site.url }}/assets/img/afterLodash.png "after apply tree shaking")  
 
 **1.8mb -> 1.6mb**
 
@@ -108,7 +108,7 @@ And I think it's not optional for who are using Material-UI.
 
 **RESULT**  
 
-![after reduce material-ui]({{ site.github.url }}/assets/img/afterMaterialUI.png "after reduce material-ui")  
+![after reduce material-ui]({{ site.url }}/assets/img/afterMaterialUI.png "after reduce material-ui")  
 
 1.53mb -> 1.3mb
 
@@ -120,7 +120,7 @@ Changed the toast message library from Toastr to [Notie](https://github.com/jare
 
 **RESULT**  
 
-![after remove JQuery]({{ site.github.url }}/assets/img/afterRemoveJQuery.png "after remove JQuery")  
+![after remove JQuery]({{ site.url }}/assets/img/afterRemoveJQuery.png "after remove JQuery")  
 
 1.3mb -> 1.23mb
 
@@ -141,7 +141,7 @@ and you should use UgilfyWebpackPlugin for optimization.
 
 **RESULT**  
 
-![after upgrade webpack]({{ site.github.url }}/assets/img/afterWebpack4.png "after upgrade webpack")  
+![after upgrade webpack]({{ site.url }}/assets/img/afterWebpack4.png "after upgrade webpack")  
 
 1.23mb -> 1.14mb
 
@@ -150,11 +150,11 @@ and you should use UgilfyWebpackPlugin for optimization.
 ## Conclusion
 **BEFORE**
 
-![before minimizing with gzip]({{ site.github.url }}/assets/img/beforeMinimizeGzip.png "before minimizing with gzip")  
+![before minimizing with gzip]({{ site.url }}/assets/img/beforeMinimizeGzip.png "before minimizing with gzip")  
 
 **AFTER**
 
-![after minimizing with gzip]({{ site.github.url }}/assets/img/afterMinimizeGzip.png "after minimizing with gzip")  
+![after minimizing with gzip]({{ site.url }}/assets/img/afterMinimizeGzip.png "after minimizing with gzip")  
 
 **GZipped Result**  
 **495kb -> 291kb**(52% of the original)

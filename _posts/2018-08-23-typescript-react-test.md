@@ -21,14 +21,14 @@ This document is the simple guide for setting test environment who's  using Type
 # Common setting
 You should set the jest options in the package.json(You can set it with jest.config.js or else. If you want to write config to another file, follow [this guide](https://jestjs.io/docs/en/configuration.html).)  
 
-![package.json setting]({{ site.github.url }}/assets/img/packageJson.png)
+![package.json setting]({{ site.url }}/assets/img/packageJson.png)
 
 Above is my current config options. we will explore key configs.  
 
 ## transform  
 This is a pre-processing setting. I used [ts-jest](https://github.com/kulshekhar/ts-jest) to transpile Typescript to Javascript.  You can make your own pre-processing logic like below image.(we had used below pre-processing logic before.)  
 
-![pre-processing setting]({{ site.github.url }}/assets/img/preProcessing.png)
+![pre-processing setting]({{ site.url }}/assets/img/preProcessing.png)
 
 
 ## moduleNameMapper  
@@ -51,7 +51,7 @@ module mocking(avoiding unneeded module files) are rely on [ES6's Proxy feature]
 the paths to modules that run some code to configure or set up the testing environment before each test.  
 (From Jest official docs.)
 
-![setupFiles]({{ site.github.url }}/assets/img/preload.png)
+![setupFiles]({{ site.url }}/assets/img/preload.png)
 
 above settings are needed because jsDOM has an [issue](https://github.com/geelen/react-snapshot/issues/93) with `scrollTo` method.
 
@@ -59,14 +59,14 @@ above settings are needed because jsDOM has an [issue](https://github.com/geelen
 
 ## Common JavaScript(TypeScript) test
 
-![normalUnitTest]({{ site.github.url }}/assets/img/preload.png)
+![normalUnitTest]({{ site.url }}/assets/img/preload.png)
 
 it's almost the same with typical unit-test. Don't forget unmock your target module file when `autoMock` option is available.  
 
 ---
 
 ## Action Test
-![Redux action file]({{ site.github.url }}/assets/img/actionFile.png)
+![Redux action file]({{ site.url }}/assets/img/actionFile.png)
 
 Let's assume that we'll make a test for the above action.
 
@@ -76,7 +76,7 @@ Second, the API call was failed.
 
 So I created the basic structure like below image.  
 
-![action test file]({{ site.github.url }}/assets/img/actionTest1.png)
+![action test file]({{ site.url }}/assets/img/actionTest1.png)
 
 ### API Mock
 First, you should mock the API call for avoiding actual HTTP call.
@@ -87,7 +87,7 @@ This is called Manual Mock and if you want to know about this more, follow this 
 
 For this time, I made mocked journal API like below image.  
 
-![API mock]({{ site.github.url }}/assets/img/apiMock.png)
+![API mock]({{ site.url }}/assets/img/apiMock.png)
 
 It's simple. if a user asked `0 or false` for the parameter, it throws FAKE ERROR.  
 If a user asked numeric normal parameter, it returns journal fixture data. 
@@ -324,7 +324,7 @@ that's it!
 ---
 
 ## Reducer Test
-![Reducer Spec]({{ site.github.url }}/assets/img/reducerSpec.png)
+![Reducer Spec]({{ site.url }}/assets/img/reducerSpec.png)
 
 It's pretty easy now. just mock the target state and target action.  
 Then you can easily make the unit test like the above one.
