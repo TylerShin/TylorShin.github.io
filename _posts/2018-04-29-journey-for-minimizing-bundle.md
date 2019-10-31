@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Journey for minimizing bundle.js"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [webpack, performance, webpack4, migration]
 image: afterLodash.png

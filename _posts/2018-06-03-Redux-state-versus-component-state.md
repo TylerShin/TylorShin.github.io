@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to choose Redux state vs React Component state?"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [frontend, react, redux]
 image: reactUpdateHighlight.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Async/Await in React Component LifeCycle Methods"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [React, React Hooks, Async]
 image: asyncComponentDidMount.png

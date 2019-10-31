@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Things IDK as of 2018"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [Developer, Programmer, TIL]
 image: lastYear.png

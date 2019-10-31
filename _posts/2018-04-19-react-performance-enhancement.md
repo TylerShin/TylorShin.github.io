@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React Performance Enhancement by preventing the reconciliation and re-rendering"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [React, Redux, Immutable, immutable, ImmutableJS, ReactJS, redux, react, reactjs]
 image: performance.png

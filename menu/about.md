@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tylor Shin
+title: Tyler Shin
 ---
 ![Github avatar](https://avatars1.githubusercontent.com/u/9796103?s=460&v=4)  
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Send XMLHttpRequest when a browser is closed"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [FrontEnd, Browser]
 image: unloadevent.gif

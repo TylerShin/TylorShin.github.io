@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스타트업의 Workflow. Agile? Is that right?"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: workflow
 tags: [workflow, startup, agile]
 image: wrongWorkflow.png

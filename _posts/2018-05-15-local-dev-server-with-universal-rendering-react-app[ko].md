@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React를 사용한 Universal rendering web app의  local dev server 구축하기"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [React, Redux, universal-rendering, isomorphic-rendering, universal rendering, isomorphic rendering, ReactJS, redux]
 image: localServer.png

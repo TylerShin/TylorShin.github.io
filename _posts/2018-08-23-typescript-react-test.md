@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React Unit test with Jest, Typescript, Redux"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: workflow
 tags: [jest, redux, react, test, unit test]
 image: packageJson.png

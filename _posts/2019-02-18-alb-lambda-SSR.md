@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Migration to ALB Lambda for server side rendering"
-author: "Tylor Shin"
+author: "Tyler Shin"
 categories: frontend
 tags: [SSR, Lambda, ALB, React, ALB Lambda]
 image: Screenshotfrom2019-02-1713-51-28-480e55b2-7549-4cbf-870a-6ceb84591238.png
