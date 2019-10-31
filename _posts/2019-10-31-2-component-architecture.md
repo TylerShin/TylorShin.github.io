@@ -3,22 +3,8 @@ layout: post
 title: "Journey for the best React structure #2 Components"
 author: "Tyler Shin"
 categories: frontend
-tags: [react, redux, structure, folder structure, directory structure, component structure]
-image: button-component.png
----
-
-## Table of contents
-
-0. [Introduce]({% 2019-10-31-react-structure.md %}) [ X ]
-1. [Directory Structure]({% post_url 2019-10-31-directory-structure %}) [ X ]
-2. [Components] ({% post_url 2019-10-31-component-architecture %}) [ X ]
-3. Redux + Redux Starter Kit(RSK) [ ]
-4. Reducer [ ]
-5. StyleSheet [ ]
-6. SVG [ ]
-7. Build & Deployment [ ]
-8. SSR [ ]  
-
+tags: [react, redux, structure, component structure]
+image: react-component.jpg
 ---
 
 # Components
@@ -38,11 +24,13 @@ This is the smallest component in our project. This is the smallest component of
 2. Atom components are composable. `Atom + Atom = Atom | Component`
     - E.g. `<DropdownItem />` + `<DropdownItem />` could be `<DropdownList />`
 3. Atom component doesn't take responsibility for positioning itself. In most cases, Atom component doesn't display enough information and it is just a source for composing the component. From my past experience, I realized that when Atom doesn't have positioning style rules, it's much more flexible.
-    - When you use(consume) Atom component,  all style rules are possible and recommendable. However, declaring Atom with positioning style rule is an  anti-pattern.
-
+    - When you use(consume) Atom component,  all style rules are possible and recommendable. However, declaring Atom with positioning style rule is an  anti-pattern.  
+    
+   ```
         <Button style={{ marginLeft: 10 }} /> // Good
         
-        const Button = ({ children ) ⇒ <button style={{ marginLeft: 10 }}>{children}</button> // Bad
+        const Button = ({ children ) ⇒ <button style={\{ marginLeft: 10 }\}>{children}</button> // Bad   
+    ```
 
     - But you can specify Atom's own default style as you want except positioning rules(like padding, margin, ...)
 4. If your project highly relies on UI-library like Bootstrap, you can omit atom component. (But don't recommend)
@@ -113,3 +101,20 @@ For example,
     		</Laytout>
     	);
     }
+    
+    
+---
+
+## Table of contents
+
+0. [Introduce]({% post_url 2019-10-31-0-react-structure %}) [ X ]
+1. [Directory Structure]({% post_url 2019-10-31-1-directory-structure %}) [ X ]
+2. [Components]({% post_url 2019-10-31-2-component-architecture %}) [ X ]
+3. Redux + Redux Starter Kit(RSK) [ ]
+4. Reducer [ ]
+5. StyleSheet [ ]
+6. SVG [ ]
+7. Build & Deployment [ ]
+8. SSR [ ]  
+
+---

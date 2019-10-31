@@ -7,20 +7,6 @@ tags: [react, redux, structure, folder structure, directory structure, component
 image: directory-structure.jpg
 ---
 
-## Table of contents
-
-0. [Introduce]({% 2019-10-31-react-structure.md %}) [ X ]
-1. [Directory Structure]({% post_url 2019-10-31-directory-structure %}) [ X ]
-2. [Components] ({% post_url 2019-10-31-component-architecture %}) [ X ]
-3. Redux + Redux Starter Kit(RSK) [ ]
-4. Reducer [ ]
-5. StyleSheet [ ]
-6. SVG [ ]
-7. Build & Deployment [ ]
-8. SSR [ ]  
-
----
-
 # Directory Structure
 
 ---  
@@ -79,5 +65,20 @@ API requests and data models
 
 ### /typings
 
-Custom type definitions
+Custom type definitions  
 
+---
+
+## Table of contents
+
+0. [Introduce]({% post_url 2019-10-31-0-react-structure %}) [ X ]
+1. [Directory Structure]({% post_url 2019-10-31-1-directory-structure %}) [ X ]
+2. [Components]({% post_url 2019-10-31-2-component-architecture %}) [ X ]
+3. Redux + Redux Starter Kit(RSK) [ ]
+4. Reducer [ ]
+5. StyleSheet [ ]
+6. SVG [ ]
+7. Build & Deployment [ ]
+8. SSR [ ]  
+
+---
